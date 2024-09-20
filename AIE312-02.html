@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ 
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f48fb1;
+        }
+ 
+        header {
+            background-color: #f48fb1;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eaeaea;
+        }
+ 
+        .logo h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+ 
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+ 
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: 2px solid black;
+            border-radius: 50px;
+            background-color: black;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+ 
+        nav ul li a:hover {
+            background-color: white;
+            color: black;
+        }
+ 
+        .search-login {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+ 
+        .search-login a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 20px;
+        }
+ 
+        .search-login a:first-child {
+            border-right: 1px solid #ffffff;
+        }
+ 
+        .hero-section {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: white;
+            position: relative;
+        }
+ 
+        .hero-section h1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+ 
+        .hero-section h1 span {
+            display: block;
+            font-size: 70px;
+        }
+ 
+        .scroll-container {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+        }
+ 
+ 
+        .scroll-button {
+            margin-top: 20px;
+            padding: 10px 30px;
+            background-color: black;
+            color: white;
+            border: 2px solid black;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            float: right;
+        }
+ 
+        .brands {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px auto;
+            max-width: 1200px;
+            gap: 20px;
+        }
+ 
+        .brand {
+            flex: 1;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+ 
+        .brand img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+ 
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-top: 1px solid #eaeaea;
+        }
+    </style>
+</head>
+<body>
+ 
+<header>
+    <div class="logo">
+        <h1>❤️</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Sale</a></li>
+        </ul>
+    </nav>
+    <div class="search-login">
+        <a href="#">Search</a>
+        <a href="#">Log in</a>
+    </div>
+</header>
+ 
+<section class="hero-section">
+    <h1>
+        <b>CLOTHING</b>,<br>
+        <span>SHOES & ACCESSORIES</span>
+    </h1>
+        <button class="scroll-button">Scroll Down
+        </button>
+</section>
+ 
+<section class="brands">
+    <a href = "https://youtu.be/8F7Q-4PZCjA?si=QfaTKNy4aVT5xK7v" class="brand">
+        <img src="https://i.pinimg.com/236x/6d/ca/67/6dca67f8af23fc6ddf6dff3fecc41ccb.jpg">
+    </div></a>
+    <a href = "https://youtu.be/wXbWr_QRx8g?si=nF1UtZAoZgA9on8k" class="brand">
+        <img src="https://i.pinimg.com/736x/5e/05/ca/5e05cab1f8e6218072d3fb738f30f294.jpg">
+    </div></a>
+    <a href = "https://youtu.be/2V_uAAAH-_Q?si=yM1bR0jUugoczWUW" class="brand">
+        <img src="https://i.pinimg.com/564x/6f/c6/37/6fc637d88f241dce6df388e6af0aa0ac.jpg">
+    </div></a>
+    <a href = "https://youtu.be/t4DyuBtNFrc?si=an9zuPJ_s8mzttyh" class="brand">
+        <img src="https://i.pinimg.com/564x/fa/b4/76/fab4764719ac276bd16408226c8d5ba1.jpg">
+    </div></a>
+</section>
+ 
+</body>
+</html>
